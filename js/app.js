@@ -1,0 +1,1 @@
+setTimeout(() => {$("document").ready($(".loader-wrapper").fadeOut("slow"));}, 1000);
