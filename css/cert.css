@@ -53,13 +53,21 @@ body {
 img {
     width: 100%;
 }
-
 .name, .des {
     text-align: center;
     color: white;
 }
 .name {
     margin-top: 15px;
+}
+.overlay_cert img {
+    border-radius: 20px;
+}
+.overlay_cert {
+    transition: .4s;
+}
+.overlay_cert:hover {
+    transform: scale(1.1);
 }
 
 /* LOADER */
@@ -156,26 +164,6 @@ body {
     font-size: 30px;
     color: white;
   }
-
-/* PROJECTS */
-.title_projects {
-    margin: 2rem 0 2rem 0;
-    text-align: center;
-}
-.title_projects img {
-    width: 55%;
-}
-img {
-    width: 100%;
-}
-
-.name, .des {
-    text-align: center;
-    color: white;
-}
-.name {
-    margin-top: 15px;
-}
 
 /* LOADER */
 .content {

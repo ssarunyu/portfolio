@@ -2,6 +2,7 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
 body {
     background-color: #1E2233;
 }
@@ -43,7 +44,6 @@ body {
 }
 
 /* MAIN */
-
 .site_main .site_banner .site_title {
     color: white;
 }
@@ -58,7 +58,7 @@ body {
 a.btn {
   float: right;
   margin-top: 1rem;
-  padding: .7rem 4rem;
+  padding: .7rem 3rem;
   border: none;
   background: #008F7E;
   border-radius: 10px;
@@ -114,8 +114,11 @@ a.btn:hover {
 }
 
 /* PROJECTS */
-#work {
-    padding-top: 5rem;
+#work_overlay {
+  border-radius: 20px;
+}
+#projects {
+    padding-top: 10rem;
 }
 #border {
   border-radius: 30px;
@@ -149,6 +152,7 @@ a.btn:hover {
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
+    border-radius: 20px;
   }
   
   .content .content_overlay {
@@ -214,7 +218,7 @@ a.btn:hover {
 
 /* Certificate */
 #cert {
-  margin-top: 12rem;
+  margin-top: 20rem;
 }
 #cert_title img {
   width: 60%;
@@ -229,7 +233,7 @@ a.btn:hover {
 
 /* FOOTER */
 footer {
-  margin-top: 5rem;
+  margin-top: 10rem;
   background: #24283B;
   padding: 1%;
 }
@@ -330,5 +334,8 @@ footer {
   }
   #projects_title img {
     width: 100%;
+  }
+  #right {
+    margin-top: 3rem;
   }
 }

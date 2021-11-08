@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="/css/style.css">
     <!--Font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <!--AOS Scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
 <body>
 
     <!--NAV-->
@@ -51,9 +53,9 @@
                   <img src="/img/profile.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 col-md-12 site_title">
-                  <h1 class="title_text">Welcome to my portfolio</h1>
-                  <p class="des_text">Hello and nice to meet you. My name is Sarunyu Supokhai.<br>Student from Bodindecha (sing singhaseni) 2 school.<br> I’m interested in Computer programming, UX/UI Design, Computer Graphics. This website represents me. What I used to do, about my experience in the computer field.</p>
-                  <a class="btn btn-primary" href="about.html" role="button">About me ></a>
+                  <h1 class="title_text">Welcome!</h1>
+                  <p class="des_text">Hello and nice to meet you. My name is Sarunyu Supokhai.<br>Student from Bodindecha (sing singhaseni) 2 school.<br>This website represents me. What I used to do about my experience in the computer field.</p>
+                  <a class="btn btn-primary" href="about.html" role="button">More about me ></a>
                   <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
                 </div>
             </div>
@@ -62,18 +64,18 @@
     </main>
 
     <!--Projects-->
-    <section id="work">
+    <section id="projects">
       <div class="container" id="projects_title">
-          <img src="/img/work_header.png" alt="">
+          <img data-aos="zoom-in" src="/img/work_header.png" alt="">
       </div>
         <div class="container">
             <div class="row">
-                <div id="left" class="col-lg-6">
+                <div data-aos="fade-right" id="left" class="col-lg-6">
                     <div class="container">
                         <div class="content">
                             <a href="https://www.behance.net/ssarunyu04" target="_blank">
                                 <div class="content_overlay"></div>
-                                    <img src="/img/overlay_gp.png" id="work1" class="img-fluid"alt="">
+                                    <img src="/img/overlay_gp.png" id="work_overlay" class="img-fluid"alt="">
                                         <div class="content-details fadeIn-bottom">
                                             <h3 class="content_title">Graphic Design</h3>
                                             <p class="content_text">Look all my graphic design project</p>
@@ -83,12 +85,12 @@
                     </div>
                 </div>
 
-                <div id="right" class="col-lg-6">
+                <div data-aos="fade-left" id="right" class="col-lg-6">
                     <div class="container">
                         <div class="content">
                             <a href="work.html">
                                 <div class="content_overlay"></div>
-                                    <img src="/img/overlay_coding.png" id="work1" class="img-fluid"alt="">
+                                    <img src="/img/overlay_coding.png" id="work_overlay" class="img-fluid"alt="">
                                         <div class="content-details fadeIn-bottom">
                                             <h3 class="content_title">Coding</h3>
                                             <p class="content_text">All projects whether Quiz website, Flashcard</p>
@@ -105,7 +107,7 @@
     <!--Certificate-->
     <section id="cert">
         <div class="container" id="cert_title">
-          <img src="/img/cert_header.png" alt="">
+          <img data-aos="zoom-in" src="/img/cert_header.png" alt="">
         </div>
         <div class="container" id="cert_slider">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -119,22 +121,34 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="/img/cert_1.jpg" class="d-block w-100" alt="">
+                  <a href="cert.html">
+                    <img class="d-block w-100" src="/img/cert_1.jpg" alt="">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img src="/img/cert_2.jpg" class="d-block w-100" alt="">
+                  <a href="cert.html">
+                    <img class="d-block w-100" src="/img/cert_2.jpg" alt="">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img src="/img/cert_3.jpg" class="d-block w-100" alt="">
+                  <a href="cert.html">
+                    <img class="d-block w-100" src="/img/cert_3.jpg" alt="">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img src="/img/cert_4.jpg" class="d-block w-100" alt="">
+                  <a href="cert.html">
+                    <img class="d-block w-100" src="/img/cert_4.jpg" alt="">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img src="/img/cert_5.jpg" class="d-block w-100" alt="">
+                  <a href="cert.html">
+                    <img class="d-block w-100" src="/img/cert_5.jpg" alt="">
+                  </a>
                 </div>
                 <div class="carousel-item">
-                  <img src="/img/cert_6.jpg" class="d-block w-100" alt="">
+                  <a href="cert.html">
+                    <img class="d-block w-100" src="/img/cert_6.jpg" alt="">
+                  </a>
                 </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -172,6 +186,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/app.js"></script>
 
 </body>
