@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: #1E2233;
+    background-color: white;
 }
 
 /* NAV */
 .navbar-brand {
-  color: white;
+  color: black;
   font-weight: 700;
   font-size: 30px;
   transition: .3s;
@@ -19,7 +19,7 @@ body {
 }
 .header_area {
     padding: 0.5rem;
-    background-color: #24283B;
+    background-color: rgb(250, 250, 250);
 }
 .header_area .menu .navbar .navbar-brand {
     padding-left: 4rem;
@@ -29,10 +29,10 @@ body {
 }
 .header_area .menu .navbar .nav-item .nav-link{
     padding-left: 3rem;
-    color: white;
+    color: black;
 }
 .header_area .menu .navbar .navbar-nav a{
-  color: white;
+  color: black;
   transition: .5s;
 }
 .header_area .menu .navbar .navbar-nav a:hover{
@@ -55,18 +55,26 @@ body {
   width: 90%;
     padding: 2rem 0 0 0;
 }
+.title_text {
+  color: black;
+}
+.des_text {
+  color: black;
+}
 a.btn {
   float: right;
   margin-top: 1rem;
   padding: .7rem 3rem;
   border: none;
-  background: #008F7E;
-  border-radius: 10px;
+  color: black;
+  background: white;
+  border: 2px solid black;
+  border-radius: 30px;
   transition: .4s;
 }
 a.btn:hover {
-  background: #01a390;
-  border-radius: 30px;
+  background: black;
+  color: white;
 }
 
 /* MOUSE SCROLL ICON ANIMATION */
@@ -234,18 +242,18 @@ a.btn:hover {
 /* FOOTER */
 footer {
   margin-top: 10rem;
-  background: #24283B;
+  background: rgb(250, 250, 250);
   padding: 1%;
 }
 .contact {
   text-align: end;
-  color: white;
+  color: black;
   margin-top: .4rem;
 }
 #social_link a {
   margin: 0 1rem 0 1rem;
   font-size: 30px;
-  color: white;
+  color: black;
   transition: .4s;
 }
 #social_link a:hover {
@@ -266,7 +274,7 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #1E2233;
+  background-color: white;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -276,14 +284,14 @@ footer {
   width: 30px;
   height: 30px;
   position: relative;
-  border: 4px solid #Fff;
+  border: 4px solid black;
   animation: loader 2s infinite ease;
 }
 .loader-inner {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #fff;
+  background-color: black;
   animation: loader-inner 2s infinite ease-in;
 }
 
